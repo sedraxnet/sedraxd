@@ -7,18 +7,18 @@ import (
 	"sync"
 	"time"
 
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
+	"github.com/sedraxnet/sedraxd/domain/consensus/model/externalapi"
 
-	"github.com/kaspanet/kaspad/util/txmass"
+	"github.com/sedraxnet/sedraxd/util/txmass"
 
-	"github.com/kaspanet/kaspad/util/profiling"
+	"github.com/sedraxnet/sedraxd/util/profiling"
 
-	"github.com/kaspanet/kaspad/cmd/kaspawallet/daemon/pb"
-	"github.com/kaspanet/kaspad/cmd/kaspawallet/keys"
-	"github.com/kaspanet/kaspad/domain/dagconfig"
-	"github.com/kaspanet/kaspad/infrastructure/network/rpcclient"
-	"github.com/kaspanet/kaspad/infrastructure/os/signal"
-	"github.com/kaspanet/kaspad/util/panics"
+	"github.com/sedraxnet/sedraxd/cmd/kaspawallet/daemon/pb"
+	"github.com/sedraxnet/sedraxd/cmd/kaspawallet/keys"
+	"github.com/sedraxnet/sedraxd/domain/dagconfig"
+	"github.com/sedraxnet/sedraxd/infrastructure/network/rpcclient"
+	"github.com/sedraxnet/sedraxd/infrastructure/os/signal"
+	"github.com/sedraxnet/sedraxd/util/panics"
 	"github.com/pkg/errors"
 
 	"google.golang.org/grpc"

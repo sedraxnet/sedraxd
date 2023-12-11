@@ -1,10 +1,10 @@
 package finalitystore
 
 import (
-	"github.com/kaspanet/kaspad/domain/consensus/model"
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/lrucache"
-	"github.com/kaspanet/kaspad/util/staging"
+	"github.com/sedraxnet/sedraxd/domain/consensus/model"
+	"github.com/sedraxnet/sedraxd/domain/consensus/model/externalapi"
+	"github.com/sedraxnet/sedraxd/domain/consensus/utils/lrucache"
+	"github.com/sedraxnet/sedraxd/util/staging"
 )
 
 var bucketName = []byte("finality-points")

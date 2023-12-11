@@ -1,10 +1,10 @@
 package consensusstatemanager
 
 import (
-	"github.com/kaspanet/kaspad/domain/consensus/model"
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/utxo"
-	"github.com/kaspanet/kaspad/infrastructure/logger"
+	"github.com/sedraxnet/sedraxd/domain/consensus/model"
+	"github.com/sedraxnet/sedraxd/domain/consensus/model/externalapi"
+	"github.com/sedraxnet/sedraxd/domain/consensus/utils/utxo"
+	"github.com/sedraxnet/sedraxd/infrastructure/logger"
 )
 
 // AddBlock submits the given block to be added to the

@@ -4,8 +4,8 @@ import (
 	"math"
 	"math/rand"
 
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/pow"
+	"github.com/sedraxnet/sedraxd/domain/consensus/model/externalapi"
+	"github.com/sedraxnet/sedraxd/domain/consensus/utils/pow"
 	"github.com/pkg/errors"
 )
 

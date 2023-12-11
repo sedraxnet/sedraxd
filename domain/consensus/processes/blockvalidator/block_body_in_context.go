@@ -1,12 +1,12 @@
 package blockvalidator
 
 import (
-	"github.com/kaspanet/kaspad/domain/consensus/model"
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/ruleerrors"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/transactionhelper"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/virtual"
-	"github.com/kaspanet/kaspad/infrastructure/logger"
+	"github.com/sedraxnet/sedraxd/domain/consensus/model"
+	"github.com/sedraxnet/sedraxd/domain/consensus/model/externalapi"
+	"github.com/sedraxnet/sedraxd/domain/consensus/ruleerrors"
+	"github.com/sedraxnet/sedraxd/domain/consensus/utils/transactionhelper"
+	"github.com/sedraxnet/sedraxd/domain/consensus/utils/virtual"
+	"github.com/sedraxnet/sedraxd/infrastructure/logger"
 	"github.com/pkg/errors"
 )
 
@@ -168,7 +168,7 @@ func (v *blockValidator) checkCoinbaseSubsidy(
 			return err
 		}
 
-		// The pruning proof ( https://github.com/kaspanet/docs/blob/main/Reference/prunality/Prunality.pdf ) concludes
+		// The pruning proof ( https://github.com/sedraxnet/docs/blob/main/Reference/prunality/Prunality.pdf ) concludes
 		// that it's impossible for a block to be merged if it was created in the anticone of the pruning point that was
 		// present at the time of the block creation. So if such situation happens we can be sure that it happens during
 		// IBD and that this block has at least pruningDepth-finalityInterval confirmations.

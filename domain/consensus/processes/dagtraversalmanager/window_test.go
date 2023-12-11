@@ -5,13 +5,13 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/kaspanet/kaspad/domain/consensus/model"
+	"github.com/sedraxnet/sedraxd/domain/consensus/model"
 
-	"github.com/kaspanet/kaspad/domain/consensus"
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/hashset"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/testutils"
-	"github.com/kaspanet/kaspad/domain/dagconfig"
+	"github.com/sedraxnet/sedraxd/domain/consensus"
+	"github.com/sedraxnet/sedraxd/domain/consensus/model/externalapi"
+	"github.com/sedraxnet/sedraxd/domain/consensus/utils/hashset"
+	"github.com/sedraxnet/sedraxd/domain/consensus/utils/testutils"
+	"github.com/sedraxnet/sedraxd/domain/dagconfig"
 	"github.com/pkg/errors"
 )
 

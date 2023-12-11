@@ -1,12 +1,12 @@
 package main
 
 import (
-	"github.com/kaspanet/kaspad/domain/consensus"
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/consensushashing"
-	"github.com/kaspanet/kaspad/infrastructure/db/database/ldb"
-	"github.com/kaspanet/kaspad/stability-tests/common"
-	"github.com/kaspanet/kaspad/stability-tests/common/mine"
+	"github.com/sedraxnet/sedraxd/domain/consensus"
+	"github.com/sedraxnet/sedraxd/domain/consensus/model/externalapi"
+	"github.com/sedraxnet/sedraxd/domain/consensus/utils/consensushashing"
+	"github.com/sedraxnet/sedraxd/infrastructure/db/database/ldb"
+	"github.com/sedraxnet/sedraxd/stability-tests/common"
+	"github.com/sedraxnet/sedraxd/stability-tests/common/mine"
 	"github.com/pkg/errors"
 )
 

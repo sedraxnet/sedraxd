@@ -1,8 +1,8 @@
 package staging
 
 import (
-	"github.com/kaspanet/kaspad/domain/consensus/model"
-	"github.com/kaspanet/kaspad/infrastructure/logger"
+	"github.com/sedraxnet/sedraxd/domain/consensus/model"
+	"github.com/sedraxnet/sedraxd/infrastructure/logger"
 	"sync/atomic"
 )
 

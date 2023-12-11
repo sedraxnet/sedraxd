@@ -2,18 +2,18 @@ package libkaspawallet_test
 
 import (
 	"fmt"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/constants"
+	"github.com/sedraxnet/sedraxd/domain/consensus/utils/constants"
 	"strings"
 	"testing"
 
-	"github.com/kaspanet/kaspad/cmd/kaspawallet/libkaspawallet"
-	"github.com/kaspanet/kaspad/domain/consensus"
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/consensushashing"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/testutils"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/txscript"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/utxo"
-	"github.com/kaspanet/kaspad/util"
+	"github.com/sedraxnet/sedraxd/cmd/kaspawallet/libkaspawallet"
+	"github.com/sedraxnet/sedraxd/domain/consensus"
+	"github.com/sedraxnet/sedraxd/domain/consensus/model/externalapi"
+	"github.com/sedraxnet/sedraxd/domain/consensus/utils/consensushashing"
+	"github.com/sedraxnet/sedraxd/domain/consensus/utils/testutils"
+	"github.com/sedraxnet/sedraxd/domain/consensus/utils/txscript"
+	"github.com/sedraxnet/sedraxd/domain/consensus/utils/utxo"
+	"github.com/sedraxnet/sedraxd/util"
 )
 
 func forSchnorrAndECDSA(t *testing.T, testFunc func(t *testing.T, ecdsa bool)) {

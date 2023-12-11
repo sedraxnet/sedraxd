@@ -4,17 +4,17 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/kaspanet/kaspad/util"
+	"github.com/sedraxnet/sedraxd/util"
 
-	"github.com/kaspanet/kaspad/version"
+	"github.com/sedraxnet/sedraxd/version"
 
 	"github.com/pkg/errors"
 
 	_ "net/http/pprof"
 
-	"github.com/kaspanet/kaspad/infrastructure/os/signal"
-	"github.com/kaspanet/kaspad/util/panics"
-	"github.com/kaspanet/kaspad/util/profiling"
+	"github.com/sedraxnet/sedraxd/infrastructure/os/signal"
+	"github.com/sedraxnet/sedraxd/util/panics"
+	"github.com/sedraxnet/sedraxd/util/profiling"
 )
 
 func main() {

@@ -3,18 +3,18 @@ package handshake
 import (
 	"sync/atomic"
 
-	"github.com/kaspanet/kaspad/domain"
+	"github.com/sedraxnet/sedraxd/domain"
 
-	"github.com/kaspanet/kaspad/app/protocol/common"
-	"github.com/kaspanet/kaspad/app/protocol/protocolerrors"
-	"github.com/kaspanet/kaspad/infrastructure/network/addressmanager"
+	"github.com/sedraxnet/sedraxd/app/protocol/common"
+	"github.com/sedraxnet/sedraxd/app/protocol/protocolerrors"
+	"github.com/sedraxnet/sedraxd/infrastructure/network/addressmanager"
 
-	"github.com/kaspanet/kaspad/infrastructure/config"
-	"github.com/kaspanet/kaspad/infrastructure/network/netadapter"
+	"github.com/sedraxnet/sedraxd/infrastructure/config"
+	"github.com/sedraxnet/sedraxd/infrastructure/network/netadapter"
 
-	"github.com/kaspanet/kaspad/app/appmessage"
-	peerpkg "github.com/kaspanet/kaspad/app/protocol/peer"
-	routerpkg "github.com/kaspanet/kaspad/infrastructure/network/netadapter/router"
+	"github.com/sedraxnet/sedraxd/app/appmessage"
+	peerpkg "github.com/sedraxnet/sedraxd/app/protocol/peer"
+	routerpkg "github.com/sedraxnet/sedraxd/infrastructure/network/netadapter/router"
 	"github.com/pkg/errors"
 )
 

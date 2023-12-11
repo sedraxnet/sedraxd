@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/kaspanet/kaspad/app/appmessage"
-	"github.com/kaspanet/kaspad/infrastructure/logger"
-	"github.com/kaspanet/kaspad/infrastructure/network/rpcclient"
+	"github.com/sedraxnet/sedraxd/app/appmessage"
+	"github.com/sedraxnet/sedraxd/infrastructure/logger"
+	"github.com/sedraxnet/sedraxd/infrastructure/network/rpcclient"
 	"github.com/pkg/errors"
 	"time"
 )

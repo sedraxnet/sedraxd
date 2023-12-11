@@ -1,11 +1,11 @@
 package transactionvalidator
 
 import (
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/ruleerrors"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/constants"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/subnetworks"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/transactionhelper"
+	"github.com/sedraxnet/sedraxd/domain/consensus/model/externalapi"
+	"github.com/sedraxnet/sedraxd/domain/consensus/ruleerrors"
+	"github.com/sedraxnet/sedraxd/domain/consensus/utils/constants"
+	"github.com/sedraxnet/sedraxd/domain/consensus/utils/subnetworks"
+	"github.com/sedraxnet/sedraxd/domain/consensus/utils/transactionhelper"
 	"github.com/pkg/errors"
 )
 

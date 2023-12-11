@@ -7,11 +7,11 @@ package txscript_test
 import (
 	"encoding/hex"
 	"fmt"
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
+	"github.com/sedraxnet/sedraxd/domain/consensus/model/externalapi"
 
-	"github.com/kaspanet/kaspad/domain/consensus/utils/txscript"
-	"github.com/kaspanet/kaspad/domain/dagconfig"
-	"github.com/kaspanet/kaspad/util"
+	"github.com/sedraxnet/sedraxd/domain/consensus/utils/txscript"
+	"github.com/sedraxnet/sedraxd/domain/dagconfig"
+	"github.com/sedraxnet/sedraxd/util"
 )
 
 // This example demonstrates creating a script which pays to a kaspa address.

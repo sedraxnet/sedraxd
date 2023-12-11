@@ -18,12 +18,12 @@ import (
 
 	"github.com/btcsuite/go-socks/socks"
 	"github.com/jessevdk/go-flags"
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/dagconfig"
-	"github.com/kaspanet/kaspad/infrastructure/logger"
-	"github.com/kaspanet/kaspad/util"
-	"github.com/kaspanet/kaspad/util/network"
-	"github.com/kaspanet/kaspad/version"
+	"github.com/sedraxnet/sedraxd/domain/consensus/model/externalapi"
+	"github.com/sedraxnet/sedraxd/domain/dagconfig"
+	"github.com/sedraxnet/sedraxd/infrastructure/logger"
+	"github.com/sedraxnet/sedraxd/util"
+	"github.com/sedraxnet/sedraxd/util/network"
+	"github.com/sedraxnet/sedraxd/version"
 	"github.com/pkg/errors"
 )
 

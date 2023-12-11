@@ -1,9 +1,9 @@
 package testutils
 
 import (
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/constants"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/txscript"
+	"github.com/sedraxnet/sedraxd/domain/consensus/model/externalapi"
+	"github.com/sedraxnet/sedraxd/domain/consensus/utils/constants"
+	"github.com/sedraxnet/sedraxd/domain/consensus/utils/txscript"
 	"github.com/pkg/errors"
 )
 

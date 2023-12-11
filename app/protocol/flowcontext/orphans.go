@@ -1,11 +1,11 @@
 package flowcontext
 
 import (
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/ruleerrors"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/consensushashing"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/hashset"
-	"github.com/kaspanet/kaspad/infrastructure/logger"
+	"github.com/sedraxnet/sedraxd/domain/consensus/model/externalapi"
+	"github.com/sedraxnet/sedraxd/domain/consensus/ruleerrors"
+	"github.com/sedraxnet/sedraxd/domain/consensus/utils/consensushashing"
+	"github.com/sedraxnet/sedraxd/domain/consensus/utils/hashset"
+	"github.com/sedraxnet/sedraxd/infrastructure/logger"
 	"github.com/pkg/errors"
 )
 

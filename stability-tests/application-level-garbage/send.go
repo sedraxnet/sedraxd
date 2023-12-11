@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/kaspanet/kaspad/app/appmessage"
-	"github.com/kaspanet/kaspad/app/protocol/common"
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/consensushashing"
-	"github.com/kaspanet/kaspad/infrastructure/network/netadapter/standalone"
+	"github.com/sedraxnet/sedraxd/app/appmessage"
+	"github.com/sedraxnet/sedraxd/app/protocol/common"
+	"github.com/sedraxnet/sedraxd/domain/consensus/model/externalapi"
+	"github.com/sedraxnet/sedraxd/domain/consensus/utils/consensushashing"
+	"github.com/sedraxnet/sedraxd/infrastructure/network/netadapter/standalone"
 	"github.com/pkg/errors"
 )
 

@@ -1,12 +1,12 @@
 package main
 
 import (
-	"github.com/kaspanet/kaspad/domain/consensus"
-	"github.com/kaspanet/kaspad/stability-tests/common"
-	"github.com/kaspanet/kaspad/stability-tests/common/mine"
-	"github.com/kaspanet/kaspad/stability-tests/common/rpc"
-	"github.com/kaspanet/kaspad/util/panics"
-	"github.com/kaspanet/kaspad/util/profiling"
+	"github.com/sedraxnet/sedraxd/domain/consensus"
+	"github.com/sedraxnet/sedraxd/stability-tests/common"
+	"github.com/sedraxnet/sedraxd/stability-tests/common/mine"
+	"github.com/sedraxnet/sedraxd/stability-tests/common/rpc"
+	"github.com/sedraxnet/sedraxd/util/panics"
+	"github.com/sedraxnet/sedraxd/util/profiling"
 	"github.com/pkg/errors"
 )
 

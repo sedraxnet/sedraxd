@@ -2,19 +2,19 @@ package main
 
 import (
 	"fmt"
-	"github.com/kaspanet/kaspad/domain/consensus"
+	"github.com/sedraxnet/sedraxd/domain/consensus"
 	"os/exec"
 	"strings"
 	"sync/atomic"
 	"syscall"
 	"time"
 
-	"github.com/kaspanet/kaspad/app/appmessage"
-	"github.com/kaspanet/kaspad/stability-tests/common"
-	"github.com/kaspanet/kaspad/stability-tests/common/mine"
-	"github.com/kaspanet/kaspad/stability-tests/common/rpc"
-	"github.com/kaspanet/kaspad/util"
-	"github.com/kaspanet/kaspad/util/panics"
+	"github.com/sedraxnet/sedraxd/app/appmessage"
+	"github.com/sedraxnet/sedraxd/stability-tests/common"
+	"github.com/sedraxnet/sedraxd/stability-tests/common/mine"
+	"github.com/sedraxnet/sedraxd/stability-tests/common/rpc"
+	"github.com/sedraxnet/sedraxd/util"
+	"github.com/sedraxnet/sedraxd/util/panics"
 	"github.com/pkg/errors"
 )
 

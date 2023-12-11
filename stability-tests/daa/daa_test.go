@@ -1,12 +1,12 @@
 package daa
 
 import (
-	"github.com/kaspanet/kaspad/app/appmessage"
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/pow"
-	"github.com/kaspanet/kaspad/domain/dagconfig"
-	"github.com/kaspanet/kaspad/infrastructure/network/rpcclient"
-	"github.com/kaspanet/kaspad/stability-tests/common"
+	"github.com/sedraxnet/sedraxd/app/appmessage"
+	"github.com/sedraxnet/sedraxd/domain/consensus/model/externalapi"
+	"github.com/sedraxnet/sedraxd/domain/consensus/utils/pow"
+	"github.com/sedraxnet/sedraxd/domain/dagconfig"
+	"github.com/sedraxnet/sedraxd/infrastructure/network/rpcclient"
+	"github.com/sedraxnet/sedraxd/stability-tests/common"
 	"math"
 	"math/rand"
 	"os"

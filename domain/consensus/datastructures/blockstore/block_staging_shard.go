@@ -1,8 +1,8 @@
 package blockstore
 
 import (
-	"github.com/kaspanet/kaspad/domain/consensus/model"
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
+	"github.com/sedraxnet/sedraxd/domain/consensus/model"
+	"github.com/sedraxnet/sedraxd/domain/consensus/model/externalapi"
 )
 
 type blockStagingShard struct {

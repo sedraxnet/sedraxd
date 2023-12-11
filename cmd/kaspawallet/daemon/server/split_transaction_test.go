@@ -3,21 +3,21 @@ package server
 import (
 	"testing"
 
-	"github.com/kaspanet/kaspad/cmd/kaspawallet/libkaspawallet/serialization"
+	"github.com/sedraxnet/sedraxd/cmd/kaspawallet/libkaspawallet/serialization"
 
-	"github.com/kaspanet/kaspad/cmd/kaspawallet/keys"
-	"github.com/kaspanet/kaspad/util/txmass"
+	"github.com/sedraxnet/sedraxd/cmd/kaspawallet/keys"
+	"github.com/sedraxnet/sedraxd/util/txmass"
 
-	"github.com/kaspanet/kaspad/domain/dagconfig"
+	"github.com/sedraxnet/sedraxd/domain/dagconfig"
 
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/consensushashing"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/txscript"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/utxo"
+	"github.com/sedraxnet/sedraxd/domain/consensus/model/externalapi"
+	"github.com/sedraxnet/sedraxd/domain/consensus/utils/consensushashing"
+	"github.com/sedraxnet/sedraxd/domain/consensus/utils/txscript"
+	"github.com/sedraxnet/sedraxd/domain/consensus/utils/utxo"
 
-	"github.com/kaspanet/kaspad/cmd/kaspawallet/libkaspawallet"
-	"github.com/kaspanet/kaspad/domain/consensus"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/testutils"
+	"github.com/sedraxnet/sedraxd/cmd/kaspawallet/libkaspawallet"
+	"github.com/sedraxnet/sedraxd/domain/consensus"
+	"github.com/sedraxnet/sedraxd/domain/consensus/utils/testutils"
 )
 
 func TestEstimateMassAfterSignatures(t *testing.T) {

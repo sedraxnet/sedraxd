@@ -5,8 +5,8 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/kaspanet/kaspad/stability-tests/common"
-	"github.com/kaspanet/kaspad/stability-tests/common/mine"
+	"github.com/sedraxnet/sedraxd/stability-tests/common"
+	"github.com/sedraxnet/sedraxd/stability-tests/common/mine"
 	"github.com/pkg/errors"
 )
 

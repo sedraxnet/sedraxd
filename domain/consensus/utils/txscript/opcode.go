@@ -11,13 +11,13 @@ import (
 	"fmt"
 	"hash"
 
-	"github.com/kaspanet/kaspad/domain/consensus/utils/consensushashing"
+	"github.com/sedraxnet/sedraxd/domain/consensus/utils/consensushashing"
 
 	"golang.org/x/crypto/blake2b"
 
-	"github.com/kaspanet/kaspad/domain/consensus/utils/constants"
+	"github.com/sedraxnet/sedraxd/domain/consensus/utils/constants"
 
-	"github.com/kaspanet/go-secp256k1"
+	"github.com/sedraxnet/go-secp256k1"
 )
 
 // An opcode defines the information related to a txscript opcode. opfunc, if

@@ -8,14 +8,14 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
+	"github.com/sedraxnet/sedraxd/domain/consensus/model/externalapi"
 
-	"github.com/kaspanet/kaspad/app/appmessage"
-	"github.com/kaspanet/kaspad/util/network"
+	"github.com/sedraxnet/sedraxd/app/appmessage"
+	"github.com/sedraxnet/sedraxd/util/network"
 
 	"github.com/pkg/errors"
 
-	"github.com/kaspanet/kaspad/util"
+	"github.com/sedraxnet/sedraxd/util"
 )
 
 // These variables are the DAG proof-of-work limit parameters for each default
@@ -175,7 +175,7 @@ type Params struct {
 	// CoinbasePayloadScriptPublicKeyMaxLength is the maximum allowed script public key in the coinbase's payload
 	CoinbasePayloadScriptPublicKeyMaxLength uint8
 
-	// PruningProofM is the 'm' constant in the pruning proof. For more details see: https://github.com/kaspanet/research/issues/3
+	// PruningProofM is the 'm' constant in the pruning proof. For more details see: https://github.com/sedraxnet/research/issues/3
 	PruningProofM uint64
 
 	// DeflationaryPhaseDaaScore is the DAA score after which the monetary policy switches

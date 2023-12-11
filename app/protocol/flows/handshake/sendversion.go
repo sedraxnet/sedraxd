@@ -1,12 +1,12 @@
 package handshake
 
 import (
-	"github.com/kaspanet/kaspad/app/appmessage"
-	"github.com/kaspanet/kaspad/app/protocol/common"
-	peerpkg "github.com/kaspanet/kaspad/app/protocol/peer"
-	"github.com/kaspanet/kaspad/infrastructure/logger"
-	"github.com/kaspanet/kaspad/infrastructure/network/netadapter/router"
-	"github.com/kaspanet/kaspad/version"
+	"github.com/sedraxnet/sedraxd/app/appmessage"
+	"github.com/sedraxnet/sedraxd/app/protocol/common"
+	peerpkg "github.com/sedraxnet/sedraxd/app/protocol/peer"
+	"github.com/sedraxnet/sedraxd/infrastructure/logger"
+	"github.com/sedraxnet/sedraxd/infrastructure/network/netadapter/router"
+	"github.com/sedraxnet/sedraxd/version"
 	"github.com/pkg/errors"
 )
 

@@ -4,14 +4,14 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/kaspanet/kaspad/util/mstime"
+	"github.com/sedraxnet/sedraxd/util/mstime"
 
-	"github.com/kaspanet/kaspad/domain/consensus/database"
-	"github.com/kaspanet/kaspad/domain/consensus/model"
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/ruleerrors"
-	"github.com/kaspanet/kaspad/infrastructure/logger"
-	"github.com/kaspanet/kaspad/util/staging"
+	"github.com/sedraxnet/sedraxd/domain/consensus/database"
+	"github.com/sedraxnet/sedraxd/domain/consensus/model"
+	"github.com/sedraxnet/sedraxd/domain/consensus/model/externalapi"
+	"github.com/sedraxnet/sedraxd/domain/consensus/ruleerrors"
+	"github.com/sedraxnet/sedraxd/infrastructure/logger"
+	"github.com/sedraxnet/sedraxd/util/staging"
 	"github.com/pkg/errors"
 )
 

@@ -1,21 +1,21 @@
 package transactionrelay_test
 
 import (
-	"github.com/kaspanet/kaspad/app/protocol/flowcontext"
-	"github.com/kaspanet/kaspad/app/protocol/flows/v5/transactionrelay"
+	"github.com/sedraxnet/sedraxd/app/protocol/flowcontext"
+	"github.com/sedraxnet/sedraxd/app/protocol/flows/v5/transactionrelay"
 	"testing"
 
-	"github.com/kaspanet/kaspad/app/appmessage"
-	"github.com/kaspanet/kaspad/domain"
-	"github.com/kaspanet/kaspad/domain/consensus"
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/testutils"
-	"github.com/kaspanet/kaspad/domain/miningmanager/mempool"
-	"github.com/kaspanet/kaspad/infrastructure/config"
-	"github.com/kaspanet/kaspad/infrastructure/logger"
-	"github.com/kaspanet/kaspad/infrastructure/network/netadapter"
-	"github.com/kaspanet/kaspad/infrastructure/network/netadapter/router"
-	"github.com/kaspanet/kaspad/util/panics"
+	"github.com/sedraxnet/sedraxd/app/appmessage"
+	"github.com/sedraxnet/sedraxd/domain"
+	"github.com/sedraxnet/sedraxd/domain/consensus"
+	"github.com/sedraxnet/sedraxd/domain/consensus/model/externalapi"
+	"github.com/sedraxnet/sedraxd/domain/consensus/utils/testutils"
+	"github.com/sedraxnet/sedraxd/domain/miningmanager/mempool"
+	"github.com/sedraxnet/sedraxd/infrastructure/config"
+	"github.com/sedraxnet/sedraxd/infrastructure/logger"
+	"github.com/sedraxnet/sedraxd/infrastructure/network/netadapter"
+	"github.com/sedraxnet/sedraxd/infrastructure/network/netadapter/router"
+	"github.com/sedraxnet/sedraxd/util/panics"
 	"github.com/pkg/errors"
 )
 

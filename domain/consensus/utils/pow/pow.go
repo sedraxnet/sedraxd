@@ -1,11 +1,11 @@
 package pow
 
 import (
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/consensushashing"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/hashes"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/serialization"
-	"github.com/kaspanet/kaspad/util/difficulty"
+	"github.com/sedraxnet/sedraxd/domain/consensus/model/externalapi"
+	"github.com/sedraxnet/sedraxd/domain/consensus/utils/consensushashing"
+	"github.com/sedraxnet/sedraxd/domain/consensus/utils/hashes"
+	"github.com/sedraxnet/sedraxd/domain/consensus/utils/serialization"
+	"github.com/sedraxnet/sedraxd/util/difficulty"
 
 	"github.com/pkg/errors"
 	"math/big"

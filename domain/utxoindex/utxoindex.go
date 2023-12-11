@@ -1,10 +1,10 @@
 package utxoindex
 
 import (
-	"github.com/kaspanet/kaspad/domain"
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/infrastructure/db/database"
-	"github.com/kaspanet/kaspad/infrastructure/logger"
+	"github.com/sedraxnet/sedraxd/domain"
+	"github.com/sedraxnet/sedraxd/domain/consensus/model/externalapi"
+	"github.com/sedraxnet/sedraxd/infrastructure/db/database"
+	"github.com/sedraxnet/sedraxd/infrastructure/logger"
 	"sync"
 )
 

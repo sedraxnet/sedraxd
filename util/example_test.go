@@ -2,11 +2,11 @@ package util_test
 
 import (
 	"fmt"
-	"github.com/kaspanet/kaspad/util/difficulty"
+	"github.com/sedraxnet/sedraxd/util/difficulty"
 	"math"
 	"math/big"
 
-	"github.com/kaspanet/kaspad/util"
+	"github.com/sedraxnet/sedraxd/util"
 )
 
 func ExampleAmount() {

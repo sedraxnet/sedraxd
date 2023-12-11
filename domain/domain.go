@@ -5,15 +5,15 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"github.com/kaspanet/kaspad/domain/consensusreference"
+	"github.com/sedraxnet/sedraxd/domain/consensusreference"
 
-	"github.com/kaspanet/kaspad/domain/consensus"
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/miningmanager"
-	"github.com/kaspanet/kaspad/domain/miningmanager/mempool"
-	"github.com/kaspanet/kaspad/domain/prefixmanager"
-	"github.com/kaspanet/kaspad/domain/prefixmanager/prefix"
-	infrastructuredatabase "github.com/kaspanet/kaspad/infrastructure/db/database"
+	"github.com/sedraxnet/sedraxd/domain/consensus"
+	"github.com/sedraxnet/sedraxd/domain/consensus/model/externalapi"
+	"github.com/sedraxnet/sedraxd/domain/miningmanager"
+	"github.com/sedraxnet/sedraxd/domain/miningmanager/mempool"
+	"github.com/sedraxnet/sedraxd/domain/prefixmanager"
+	"github.com/sedraxnet/sedraxd/domain/prefixmanager/prefix"
+	infrastructuredatabase "github.com/sedraxnet/sedraxd/infrastructure/db/database"
 	"github.com/pkg/errors"
 )
 

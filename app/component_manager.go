@@ -4,22 +4,22 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
+	"github.com/sedraxnet/sedraxd/domain/consensus/model/externalapi"
 
-	"github.com/kaspanet/kaspad/domain/miningmanager/mempool"
+	"github.com/sedraxnet/sedraxd/domain/miningmanager/mempool"
 
-	"github.com/kaspanet/kaspad/app/protocol"
-	"github.com/kaspanet/kaspad/app/rpc"
-	"github.com/kaspanet/kaspad/domain"
-	"github.com/kaspanet/kaspad/domain/consensus"
-	"github.com/kaspanet/kaspad/domain/utxoindex"
-	"github.com/kaspanet/kaspad/infrastructure/config"
-	infrastructuredatabase "github.com/kaspanet/kaspad/infrastructure/db/database"
-	"github.com/kaspanet/kaspad/infrastructure/network/addressmanager"
-	"github.com/kaspanet/kaspad/infrastructure/network/connmanager"
-	"github.com/kaspanet/kaspad/infrastructure/network/netadapter"
-	"github.com/kaspanet/kaspad/infrastructure/network/netadapter/id"
-	"github.com/kaspanet/kaspad/util/panics"
+	"github.com/sedraxnet/sedraxd/app/protocol"
+	"github.com/sedraxnet/sedraxd/app/rpc"
+	"github.com/sedraxnet/sedraxd/domain"
+	"github.com/sedraxnet/sedraxd/domain/consensus"
+	"github.com/sedraxnet/sedraxd/domain/utxoindex"
+	"github.com/sedraxnet/sedraxd/infrastructure/config"
+	infrastructuredatabase "github.com/sedraxnet/sedraxd/infrastructure/db/database"
+	"github.com/sedraxnet/sedraxd/infrastructure/network/addressmanager"
+	"github.com/sedraxnet/sedraxd/infrastructure/network/connmanager"
+	"github.com/sedraxnet/sedraxd/infrastructure/network/netadapter"
+	"github.com/sedraxnet/sedraxd/infrastructure/network/netadapter/id"
+	"github.com/sedraxnet/sedraxd/util/panics"
 )
 
 // ComponentManager is a wrapper for all the kaspad services

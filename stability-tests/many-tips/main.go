@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/kaspanet/go-secp256k1"
-	"github.com/kaspanet/kaspad/app/appmessage"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/mining"
-	"github.com/kaspanet/kaspad/util"
+	"github.com/sedraxnet/go-secp256k1"
+	"github.com/sedraxnet/sedraxd/app/appmessage"
+	"github.com/sedraxnet/sedraxd/domain/consensus/utils/mining"
+	"github.com/sedraxnet/sedraxd/util"
 	"math/rand"
 	"os"
 	"os/exec"
@@ -15,10 +15,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/kaspanet/kaspad/stability-tests/common"
-	"github.com/kaspanet/kaspad/stability-tests/common/rpc"
-	"github.com/kaspanet/kaspad/util/panics"
-	"github.com/kaspanet/kaspad/util/profiling"
+	"github.com/sedraxnet/sedraxd/stability-tests/common"
+	"github.com/sedraxnet/sedraxd/stability-tests/common/rpc"
+	"github.com/sedraxnet/sedraxd/util/panics"
+	"github.com/sedraxnet/sedraxd/util/profiling"
 	"github.com/pkg/errors"
 )
 

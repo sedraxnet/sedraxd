@@ -1,7 +1,7 @@
 package serialization
 
 import (
-	"github.com/kaspanet/kaspad/domain/consensus/model"
+	"github.com/sedraxnet/sedraxd/domain/consensus/model"
 )
 
 func reachablityIntervalToDBReachablityInterval(reachabilityInterval *model.ReachabilityInterval) *DbReachabilityInterval {

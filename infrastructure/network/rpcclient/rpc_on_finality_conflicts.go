@@ -1,8 +1,8 @@
 package rpcclient
 
 import (
-	"github.com/kaspanet/kaspad/app/appmessage"
-	routerpkg "github.com/kaspanet/kaspad/infrastructure/network/netadapter/router"
+	"github.com/sedraxnet/sedraxd/app/appmessage"
+	routerpkg "github.com/sedraxnet/sedraxd/infrastructure/network/netadapter/router"
 	"github.com/pkg/errors"
 )
 

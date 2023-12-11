@@ -4,9 +4,9 @@ import (
 	"net"
 	"strconv"
 
-	"github.com/kaspanet/kaspad/app/appmessage"
-	"github.com/kaspanet/kaspad/app/rpc/rpccontext"
-	"github.com/kaspanet/kaspad/infrastructure/network/netadapter/router"
+	"github.com/sedraxnet/sedraxd/app/appmessage"
+	"github.com/sedraxnet/sedraxd/app/rpc/rpccontext"
+	"github.com/sedraxnet/sedraxd/infrastructure/network/netadapter/router"
 )
 
 // HandleGetPeerAddresses handles the respectively named RPC command

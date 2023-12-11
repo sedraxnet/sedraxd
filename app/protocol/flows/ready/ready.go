@@ -1,13 +1,13 @@
 package ready
 
 import (
-	"github.com/kaspanet/kaspad/app/appmessage"
-	"github.com/kaspanet/kaspad/app/protocol/common"
+	"github.com/sedraxnet/sedraxd/app/appmessage"
+	"github.com/sedraxnet/sedraxd/app/protocol/common"
 	"sync/atomic"
 
-	peerpkg "github.com/kaspanet/kaspad/app/protocol/peer"
-	"github.com/kaspanet/kaspad/app/protocol/protocolerrors"
-	routerpkg "github.com/kaspanet/kaspad/infrastructure/network/netadapter/router"
+	peerpkg "github.com/sedraxnet/sedraxd/app/protocol/peer"
+	"github.com/sedraxnet/sedraxd/app/protocol/protocolerrors"
+	routerpkg "github.com/sedraxnet/sedraxd/infrastructure/network/netadapter/router"
 	"github.com/pkg/errors"
 )
 

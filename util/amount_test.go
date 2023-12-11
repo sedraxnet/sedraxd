@@ -5,11 +5,11 @@
 package util_test
 
 import (
-	"github.com/kaspanet/kaspad/domain/consensus/utils/constants"
+	"github.com/sedraxnet/sedraxd/domain/consensus/utils/constants"
 	"math"
 	"testing"
 
-	. "github.com/kaspanet/kaspad/util"
+	. "github.com/sedraxnet/sedraxd/util"
 )
 
 func TestAmountCreation(t *testing.T) {

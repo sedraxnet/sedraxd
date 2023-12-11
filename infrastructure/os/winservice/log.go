@@ -5,8 +5,8 @@
 package winservice
 
 import (
-	"github.com/kaspanet/kaspad/infrastructure/logger"
-	"github.com/kaspanet/kaspad/util/panics"
+	"github.com/sedraxnet/sedraxd/infrastructure/logger"
+	"github.com/sedraxnet/sedraxd/util/panics"
 )
 
 var log = logger.RegisterSubSystem("CNFG")

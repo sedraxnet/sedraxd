@@ -5,7 +5,7 @@
 package util
 
 import (
-	"github.com/kaspanet/kaspad/domain/consensus/utils/constants"
+	"github.com/sedraxnet/sedraxd/domain/consensus/utils/constants"
 	"github.com/pkg/errors"
 	"math"
 	"strconv"

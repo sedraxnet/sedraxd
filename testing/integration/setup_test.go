@@ -4,14 +4,14 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/kaspanet/kaspad/domain/dagconfig"
+	"github.com/sedraxnet/sedraxd/domain/dagconfig"
 
-	"github.com/kaspanet/kaspad/infrastructure/db/database/ldb"
+	"github.com/sedraxnet/sedraxd/infrastructure/db/database/ldb"
 
-	"github.com/kaspanet/kaspad/infrastructure/db/database"
+	"github.com/sedraxnet/sedraxd/infrastructure/db/database"
 
-	"github.com/kaspanet/kaspad/app"
-	"github.com/kaspanet/kaspad/infrastructure/config"
+	"github.com/sedraxnet/sedraxd/app"
+	"github.com/sedraxnet/sedraxd/infrastructure/config"
 )
 
 type appHarness struct {
