@@ -5,7 +5,7 @@
 package dagconfig
 
 import (
-	"github.com/sedraxnet/go-muhash"
+	"github.com/sedraxnet/sedraxd/go-muhash"
 	"github.com/sedraxnet/sedraxd/domain/consensus/model/externalapi"
 	"github.com/sedraxnet/sedraxd/domain/consensus/utils/blockheader"
 	"github.com/sedraxnet/sedraxd/domain/consensus/utils/subnetworks"
