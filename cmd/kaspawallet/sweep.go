@@ -5,7 +5,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/sedraxnet/go-secp256k1"
+	"github.com/sedraxnet/sedraxd/go-secp256k1"
 	"github.com/sedraxnet/sedraxd/cmd/kaspawallet/daemon/client"
 	"github.com/sedraxnet/sedraxd/cmd/kaspawallet/daemon/pb"
 	"github.com/sedraxnet/sedraxd/cmd/kaspawallet/libkaspawallet"

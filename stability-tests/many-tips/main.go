@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/sedraxnet/go-secp256k1"
+	"github.com/sedraxnet/sedraxd/go-secp256k1"
 	"github.com/sedraxnet/sedraxd/app/appmessage"
 	"github.com/sedraxnet/sedraxd/domain/consensus/utils/mining"
 	"github.com/sedraxnet/sedraxd/util"
