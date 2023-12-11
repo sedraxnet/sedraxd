@@ -175,7 +175,7 @@ type Params struct {
 	// CoinbasePayloadScriptPublicKeyMaxLength is the maximum allowed script public key in the coinbase's payload
 	CoinbasePayloadScriptPublicKeyMaxLength uint8
 
-	// PruningProofM is the 'm' constant in the pruning proof. For more details see: https://github.com/sedraxnet/research/issues/3
+	// PruningProofM is the 'm' constant in the pruning proof. For more details see: https://github.com/kaspanet/research/issues/3
 	PruningProofM uint64
 
 	// DeflationaryPhaseDaaScore is the DAA score after which the monetary policy switches
@@ -215,7 +215,23 @@ var MainnetParams = Params{
 	DefaultPort: "16111",
 	DNSSeeds: []string{
 		// This DNS seeder is run by Wolfie
-		"ec2-65-2-9-66.ap-south-1.compute.amazonaws.com",
+		"mainnet-dnsseed.kas.pa",
+		// This DNS seeder is run by Denis Mashkevich
+		"mainnet-dnsseed-1.kaspanet.org",
+		// This DNS seeder is run by Denis Mashkevich
+		"mainnet-dnsseed-2.kaspanet.org",
+		// This DNS seeder is run by Constantine Bytensky
+		"dnsseed.cbytensky.org",
+		// This DNS seeder is run by Georges Künzli
+		"seeder1.kaspad.net",
+		// This DNS seeder is run by Georges Künzli
+		"seeder2.kaspad.net",
+		// This DNS seeder is run by Georges Künzli
+		"seeder3.kaspad.net",
+		// This DNS seeder is run by Georges Künzli
+		"seeder4.kaspad.net",
+		// This DNS seeder is run by Tim
+		"kaspadns.kaspacalc.net",
 	},
 
 	// DAG parameters
@@ -282,7 +298,9 @@ var TestnetParams = Params{
 	RPCPort:     "16210",
 	DefaultPort: "16211",
 	DNSSeeds: []string{
-		"ec2-65-2-9-66.ap-south-1.compute.amazonaws.com",
+		"testnet-10-dnsseed.kas.pa",
+		// This DNS seeder is run by Tiram
+		"seeder1-testnet.kaspad.net",
 	},
 
 	// DAG parameters

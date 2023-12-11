@@ -1,7 +1,7 @@
 package transactionvalidator_test
 
 import (
-	"github.com/sedraxnet/sedraxd/go-secp256k1"
+	"github.com/kaspanet/go-secp256k1"
 	"github.com/sedraxnet/sedraxd/domain/consensus"
 	"github.com/sedraxnet/sedraxd/domain/consensus/ruleerrors"
 	"github.com/sedraxnet/sedraxd/domain/consensus/utils/consensushashing"
