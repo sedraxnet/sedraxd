@@ -8,7 +8,7 @@ import (
 	_ "net/http/pprof"
 	"os"
 
-	"github.com/kaspanet/kaspad/app"
+	"github.com/sedraxnet/sedraxd/app"
 )
 
 func main() {
