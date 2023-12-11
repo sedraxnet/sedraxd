@@ -1,7 +1,7 @@
 package server
 
 import (
-	"github.com/sedraxnet/sedraxd/go-secp256k1"
+	"github.com/kaspanet/kaspad/go-secp256k1"
 	"github.com/pkg/errors"
 
 	"github.com/sedraxnet/sedraxd/cmd/kaspawallet/libkaspawallet"

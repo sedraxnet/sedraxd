@@ -3,7 +3,7 @@ package main
 import (
 	"time"
 
-	"github.com/sedraxnet/sedraxd/go-secp256k1"
+	"github.com/kaspanet/kaspad/go-secp256k1"
 	"github.com/sedraxnet/sedraxd/app/appmessage"
 	"github.com/sedraxnet/sedraxd/stability-tests/common"
 	"github.com/sedraxnet/sedraxd/stability-tests/common/rpc"

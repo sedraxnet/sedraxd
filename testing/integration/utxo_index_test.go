@@ -6,7 +6,7 @@ import (
 
 	"github.com/sedraxnet/sedraxd/domain/consensus/utils/utxo"
 
-	"github.com/sedraxnet/sedraxd/go-secp256k1"
+	"github.com/kaspanet/kaspad/go-secp256k1"
 	"github.com/sedraxnet/sedraxd/app/appmessage"
 	"github.com/sedraxnet/sedraxd/domain/consensus/model/externalapi"
 	"github.com/sedraxnet/sedraxd/domain/consensus/utils/consensushashing"
